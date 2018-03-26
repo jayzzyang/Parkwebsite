@@ -1,0 +1,16 @@
+@charset "utf-8";
+body {
+	margin-left: 10px;
+	margin-top: 10px;
+	background-image: url(../images/homepage.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+#map {
+	border-style: solid;
+	border-color: #787878;
+}
+body h1 {
+	color: #FFFFFF;
+}

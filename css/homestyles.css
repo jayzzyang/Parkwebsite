@@ -1,0 +1,50 @@
+@charset "utf-8";
+
+body {
+	margin-left: 10px;
+	margin-top: 10px;
+	background-image: url(../images/homepage.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+
+body h1 {
+	font-family: kaushan-script;
+	font-style: normal;
+	font-weight: 400;
+	text-align: center;
+	color: #FFFFFF;
+	font-size: 6em;
+	text-decoration: none;
+	text-shadow: 50px 50px 7px #BC1E21;
+	text-indent: -10px;
+	text-transform: capitalize;
+}
+
+.topnav {
+	background-color: #011328;
+	overflow: hidden;
+	width: 70%;
+	margin-left: 250px;
+	margin-top: 50px;
+}
+
+.topnav a {
+	float: left;
+	color: #f2f2f2;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+	text-align: center;
+}
+
+.topnav a:hover {
+	background: #ddd;
+	color: black;
+}
+
+.topnav a.active {
+	background-color: #93310B;
+	color: white;
+}
