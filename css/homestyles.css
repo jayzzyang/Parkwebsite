@@ -22,6 +22,16 @@ body h1 {
 	text-transform: capitalize;
 }
 
+p1 {
+	font-style: normal;
+	font-weight: bold;
+	text-align: center;
+	color: #FFFFFF;
+	font-size: 12;
+	text-indent: -10px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
 .topnav {
 	background-color: #011328;
 	overflow: hidden;
