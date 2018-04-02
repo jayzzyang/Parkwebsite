@@ -10,6 +10,8 @@ body {
 #map {
 	border-style: solid;
 	border-color: #787878;
+	margin-left: 250px;
+	margin-top: 25px;
 }
 body h1 {
 	color: #FFFFFF;
