@@ -3,41 +3,51 @@
 body {
 	margin-left: 10px;
 	margin-top: 10px;
-	background-image: url(../images/homepage.jpg);
+	background-image: url(../images/background2.jpg);
 	background-size: cover;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 }
 
 body h1 {
-	font-family: kaushan-script;
+	font-family: bebas-neue;
 	font-style: normal;
 	font-weight: 400;
 	text-align: center;
-	color: #FFFFFF;
-	font-size: 6em;
+	color: #000000;
+	font-size: 7em;
 	text-decoration: none;
-	text-shadow: 50px 50px 7px #BC1E21;
+	text-shadow: 30px 30px 12px #838282;
 	text-indent: -10px;
 	text-transform: capitalize;
 }
 
+body h2 {
+	text-align: center;
+}
+
 p1 {
-	font-style: normal;
-	font-weight: bold;
+	margin-left: auto;
+	margin-right: auto;
+	width: 8em;
 	text-align: center;
 	color: #FFFFFF;
 	font-size: 12;
-	text-indent: -10px;
-	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-family: marmelad;
+}
+
+#inner {
+	margin: 0 auto;
 }
 
 .topnav {
 	background-color: #011328;
 	overflow: hidden;
-	width: 70%;
 	margin-left: 250px;
-	margin-top: 50px;
+	margin-right: 250px;
+	font-family: marmelad;
+	font-style: normal;
+	font-weight: 400;
 }
 
 .topnav a {
