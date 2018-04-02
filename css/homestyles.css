@@ -1,7 +1,6 @@
 @charset "utf-8";
 
 body {
-	margin-left: 10px;
 	margin-top: 10px;
 	background-image: url(../images/background2.jpg);
 	background-size: cover;
@@ -22,30 +21,31 @@ body h1 {
 	text-transform: capitalize;
 }
 
-body h2 {
-	text-align: center;
-}
-
-p1 {
-	margin-left: auto;
-	margin-right: auto;
-	width: 8em;
+body p1 {
+	display: block;
+	font-family: corbel;
+	font-style: normal;
+	font-weight: 400;
 	text-align: center;
 	color: #FFFFFF;
-	font-size: 12;
-	font-family: marmelad;
+	font-size: 20;
 }
 
-#inner {
-	margin: 0 auto;
+body img {
+	display: block;
+	max-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
 }
 
 .topnav {
-	background-color: #011328;
+	background-color: #32b44a;
 	overflow: hidden;
-	margin-left: 250px;
-	margin-right: 250px;
-	font-family: marmelad;
+	max-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: corbel;
 	font-style: normal;
 	font-weight: 400;
 }
@@ -65,6 +65,6 @@ p1 {
 }
 
 .topnav a.active {
-	background-color: #93310B;
+	background-color: #1c842f;
 	color: white;
 }
