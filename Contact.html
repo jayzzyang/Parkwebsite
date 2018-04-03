@@ -12,63 +12,66 @@
 </head>
 
 <body>
-	
-<img><a href="Parkplusplus.html"><img src="images/header.jpg"/></a></img>
-	
-<div class="topnav">
-	<a href="About.html">About</a>
-	<a href="News.html">News</a>
-	<a href="Map.html">Map</a> 
-	<a class="active" href="Contact.html">Contact</a>
-</div>
-
-<h1>Contact</h1>
-	
-	
-<div class="popup" onClick="myFunction()">
-	<div class="chip">
-  		<img src="images/avatar1.png" alt="Person" width="96" height="96">
-  		customer service
+	<div class="content">
+        <a href="Parkplusplus.html"><img src="images/header.jpg"/></a>
+            
+        <div class="topnav">
+            <a href="Parkplusplus.html">Home</a>
+            <a href="About.html">About</a>
+            <a href="News.html">News</a>
+            <a href="Map.html">Map</a> 
+            <a class="active" href="Contact.html">Contact</a>
+        </div>
+        
+		<div class="header">
+        	<h1>Contact</h1>
+		</div>
+            
+        <div class="popup" onClick="myFunction()">
+            <div class="chip">
+                <img src="images/avatar1.png" alt="Person" width="96" height="96">
+                customer service
+            </div>
+          <span class="popuptext" id="myPopup">
+              parkpp@gmail.com
+              </br>
+              +1(587)xxx-xxxx
+            </span>
+        </div>
+        
+        <script>
+        // When the user clicks on div, open the popup
+        function myFunction() {
+            var popup = document.getElementById("myPopup");
+            popup.classList.toggle("show");
+        }
+        </script>
+        
+            
+        <div class="container">
+          <form action="action_page.php">
+        
+            <label for="fname">Your Name(required)</label>
+            <input type="text" id="yname" name="fullname" aria-required="true" aria-invalid="false" placeholder="Your name..">
+        
+            <label for="lname">Your Email(required)</label>
+            <input type="text" id="yemail" name="youremail" aria-required="true" aria-invalid="false" placeholder="Your email..">
+        
+            <label for="city">City</label>
+            <select id="city" name="city">
+              <option value="calgary">Calgary</option>
+              <option value="edmonton">Edmonton</option>
+              <option value="vancouver">Vancouver</option>
+            </select>
+        
+            <label for="subject">Subject</label>
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+        
+            <input type="submit" value="Submit">
+        
+          </form>
+        </div>
+        
 	</div>
-  <span class="popuptext" id="myPopup">
-	  parkpp@gmail.com
-	  </br>
-	  +1(587)xxx-xxxx
-	</span>
-</div>
-
-<script>
-// When the user clicks on div, open the popup
-function myFunction() {
-    var popup = document.getElementById("myPopup");
-    popup.classList.toggle("show");
-}
-</script>
-
-	
-<div class="container">
-  <form action="action_page.php">
-
-    <label for="fname">Your Name(required)</label>
-    <input type="text" id="yname" name="fullname" aria-required="true" aria-invalid="false" placeholder="Your name..">
-
-    <label for="lname">Your Email(required)</label>
-    <input type="text" id="yemail" name="youremail" aria-required="true" aria-invalid="false" placeholder="Your email..">
-
-    <label for="city">City</label>
-    <select id="city" name="city">
-	  <option value="calgary">Calgary</option>
-      <option value="edmonton">Edmonton</option>
-	  <option value="vancouver">Vancouver</option>
-    </select>
-
-    <label for="subject">Subject</label>
-    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-
-    <input type="submit" value="Submit">
-
-  </form>
-</div>
-	
 </body>
 </html>
